@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  nsted:
+    image: ${DOCKER_REGISTRY-}nsted
+    build:
+      context: .
+      dockerfile: Nøsted&/Dockerfile
